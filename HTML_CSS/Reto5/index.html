@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario</title>
+</head>
+<body>
+  <form action="#" method="post">
+    <fieldset>
+      <label for="name">
+        Nombre
+        <input type="text" name="name" id="name">
+      </label>
+    </fieldset>
+    <fieldset>
+      <label for="lastname">
+        Apellido
+        <input type="text" name="lastname" id="lastname">
+      </label>
+    </fieldset>
+    <fieldset>
+      <label for="email">
+        Apellido
+        <input type="email" name="email" id="email">
+      </label>
+    </fieldset>
+    <fieldset>
+      <label>
+        Color
+        <select name="color">
+          <option value="" disabled selected>Selecciona un color</option>
+          <option value="red">Rojo</option>
+          <option value="orange">Naranja</option>
+          <option value="yellow">Amarillo</option>
+        </select>
+      </label>
+    </fieldset>
+    <fieldset>
+      <label>
+        <input type="radio" name="tamaño" value="s" />
+        Talla S
+      </label>
+      <label>
+        <input type="radio" name="tamaño" value="M" checked />
+        Talla M
+      </label>
+      <label>
+        <input type="radio" name="tamaño" value="L" />
+        Talla L
+      </label>
+    </fieldset>
+    <fieldset>
+      <label>
+        Comentario
+        <textarea name="comentario" rows="5" cols="40"></textarea>
+      </label>
+    </fieldset>
+    <fieldset>
+      <input type="submit" value="Pedir" />
+    </fieldset>
+  </form>
+</body>
+</html>
