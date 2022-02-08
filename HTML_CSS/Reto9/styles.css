@@ -1,0 +1,47 @@
+.box1 {
+  width: 100%;
+  height: 300px;
+  background-color: darkblue;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  position: relative;
+  top: 130px;
+}
+
+h2, h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.box3 {
+  width: 100%;
+  height: 200px;
+  background-color: darkblue;
+}
+
+.box3 > div {
+  position: relative;
+  top: 55px;
+}
+
+.box3 p {
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: blueviolet;
+}
